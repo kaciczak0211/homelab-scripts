@@ -15,7 +15,7 @@ function greet() {
     else
         greeting="Good evening"
     fi
-    echo "$greeting $name :"
+    echo "$greeting, $name!"
 }
 
 for name in "$@"
